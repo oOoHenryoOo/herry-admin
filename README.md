@@ -1,33 +1,10 @@
 <h1 style="text-align: center">EL-ADMIN 后台管理系统</h1>
 <div style="text-align: center">
 
-[![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/elunez/eladmin/blob/master/LICENSE)
-[![star](https://gitee.com/elunez/eladmin/badge/star.svg?theme=white)](https://gitee.com/elunez/eladmin)
-[![GitHub stars](https://img.shields.io/github/stars/elunez/eladmin.svg?style=social&label=Stars)](https://github.com/elunez/eladmin)
-[![GitHub forks](https://img.shields.io/github/forks/elunez/eladmin.svg?style=social&label=Fork)](https://github.com/elunez/eladmin)
-
 </div>
 
 #### 项目简介
 一个基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 JWT、Spring Security、Redis、Vue的前后端分离的后台管理系统
-
-**开发文档：**  [https://el-admin.vip](https://el-admin.vip)
-
-**体验地址：**  [https://el-admin.xin](https://el-admin.xin)
-
-**账号密码：** `admin / 123456`
-
-#### 活动福利
-
-- 七牛云 2021 ECUG Con 全球技术大会内部票：给大家一共搞来五张小一千块钱的内部票。想要的加群【947578238】联系群主
-- 七牛云 2021 ECUG Con 全球技术大会早鸟特惠票：[点我抢购](http://www.huodongxing.com/event/1573487912300?coupon=EL666)
-
-#### 项目源码
-
-|     |   后端源码  |   前端源码  |
-|---  |--- | --- |
-|  github   |  https://github.com/elunez/eladmin   |  https://github.com/elunez/eladmin-web   |
-|  码云   |  https://gitee.com/elunez/eladmin   |  https://gitee.com/elunez/eladmin-web   |
 
 #### 主要特性
 - 使用最新技术栈，社区资源丰富。
@@ -90,24 +67,3 @@
 - eladmin-generator 系统代码生成模块
 ```
 
-#### 特别鸣谢
-
-- 感谢 [JetBrains](https://www.jetbrains.com/) 提供的非商业开源软件开发授权
-
-- 感谢 [七牛云](https://www.qiniu.com/) 提供的免费云存储与CDN加速支持
-
-- 感谢 [PanJiaChen](https://github.com/PanJiaChen/vue-element-admin) 大佬提供的前端模板
-
-- 感谢 [Moxun](https://github.com/moxun1639) 大佬提供的前端 Curd 通用组件
-
-- 感谢 [zhy6599](https://gitee.com/zhy6599) 大佬提供的后端运维管理相关功能
-
-- 感谢 [j.yao.SUSE](https://github.com/everhopingandwaiting) 大佬提供的匿名接口与Redis限流等功能
-
-- 感谢 [d15801543974](https://github.com/d15801543974) 大佬提供的基于注解的通用查询方式
-
-#### 项目捐赠
-项目的发展离不开你的支持，请作者喝杯咖啡吧☕  [Donate](https://el-admin.vip/donation/)
-
-#### 反馈交流
-- QQ交流群：一群：<strike>891137268</strike> 已满、二群：947578238
