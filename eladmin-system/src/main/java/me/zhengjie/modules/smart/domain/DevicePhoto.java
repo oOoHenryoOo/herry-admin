@@ -19,6 +19,9 @@ import lombok.Data;
 import cn.hutool.core.bean.BeanUtil;
 import io.swagger.annotations.ApiModelProperty;
 import cn.hutool.core.bean.copier.CopyOptions;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.sql.Timestamp;
@@ -79,10 +82,12 @@ public class DevicePhoto implements Serializable {
 
     @Column(name = "create_time")
     @ApiModelProperty(value = "创建日期")
+    @CreationTimestamp
     private Timestamp createTime;
 
     @Column(name = "update_time")
     @ApiModelProperty(value = "更新时间")
+    @UpdateTimestamp
     private Timestamp updateTime;
 
     public void copy(DevicePhoto source){

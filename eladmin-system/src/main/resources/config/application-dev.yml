@@ -7,7 +7,7 @@ spring:
 #      url: jdbc:log4jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:eladmin}?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false
 #      username: ${DB_USER:root}
 #      password: ${DB_PWD:123456}
-      url: jdbc:log4jdbc:mysql://192.168.3.252:3306/pests?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+      url: jdbc:log4jdbc:mysql://192.168.3.252:3306/smart?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: gemhoDB@2019
       # 初始连接数
