@@ -53,11 +53,11 @@ public class DevicePhoto implements Serializable {
     private String realName;
 
     @Column(name = "name")
-    @ApiModelProperty(value = "文件名")
+    @ApiModelProperty(value = "文件名称")
     private String name;
 
     @Column(name = "suffix")
-    @ApiModelProperty(value = "后缀")
+    @ApiModelProperty(value = "后缀名")
     private String suffix;
 
     @Column(name = "path")
@@ -69,7 +69,7 @@ public class DevicePhoto implements Serializable {
     private String type;
 
     @Column(name = "size")
-    @ApiModelProperty(value = "大小")
+    @ApiModelProperty(value = "文件大小")
     private String size;
 
     @Column(name = "create_by")
