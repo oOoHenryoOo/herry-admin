@@ -67,7 +67,12 @@
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
         </dependency>
-
+        <!-- 文字识别 -->
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>4.5.1</version>
+        </dependency>
         <!-- linux的管理 -->
 		<dependency>
 			<groupId>ch.ethz.ganymed</groupId>
