@@ -59,6 +59,14 @@ public class DeviceController {
         return new ResponseEntity<>(deviceService.queryAll(criteria,pageable),HttpStatus.OK);
     }
 
+    @GetMapping
+    @Log("查询设备")
+    @ApiOperation("查询设备")
+    @PreAuthorize("@el.check('device:listqueryAll')")
+    public ResponseEntity<Object> queryAll(DeviceQueryCriteria criteria, Pageable pageable){
+        return new ResponseEntity<>(deviceService.queryAll(criteria,pageable),HttpStatus.OK);
+    }
+
     @PostMapping
     @Log("新增设备")
     @ApiOperation("新增设备")
